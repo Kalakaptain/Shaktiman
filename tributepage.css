@@ -1,0 +1,42 @@
+html
+
+#main{
+    
+    background-color: #d3d3d3;
+    font: 15px Arial;
+    padding: 10px;
+    line-height : 1.5rem; 
+}
+#title h1{
+    font-size: 40px;
+    font-weight: 15px;
+    font-family: monospace;
+    text-align: center;
+}
+#title p{
+    font: 13px sans-serif gray;
+    text-align: center;
+}
+#img-div{
+    background-color: white;
+    width: 100%;
+    padding-bottom: 2rem; 
+}
+img{
+    padding: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;   
+}
+#img-caption{
+    text-align: center;
+}
+.tribute-info{
+    line-height: 5rem;
+}
+
+@media (max-width:780px){
+    .tribute-info{
+    line-height: 1.7rem;}
+}
